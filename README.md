@@ -14,16 +14,16 @@
   <img src="https://media.giphy.com/media/Qv9p77hBf48DutDzvr/giphy.gif">
 </p>
 
-# MashaRobot
-Me On Telegram [✨MASHA✨](https://t.me/MashaRoBot)
+# Typhon
+Me On Telegram [Typhon](https://t.me/TyphonRoBot)
 
 ## How To Host
 The easiest way to deploy this Bot
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Mr-Dark-Prince/MashaRoBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/jerinjohny-ktnm/Damien"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
  
 CREDITS
 ```
-❤️Merie = @SonOfLars | 💚Saitama = @Sawada | 🧡Julia = Ayush | 🧡Legendbots
+❤️Marie = @SonOfLars | 💚Saitama = @Sawada | 🧡Julia = Ayush | 🧡Legendbots
 
 
 ```
