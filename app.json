@@ -1,5 +1,5 @@
 {
-      "name": "MashaRoBot",
+      "name": "TyphonRoBot",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "manager",
          "Masha"
       ],   
-   "repository": "https://github.com/Mr-Dark-Prince/MashaRoBot",
+   "repository": "https://github.com/jerinjohny-ktnm/TyphonRobot",
    "addons": [
       {
          "options": {
@@ -56,7 +56,7 @@
          "value": ""
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: Mygroupblahblah",
          "required": true,
          "value": ""
       },
@@ -183,4 +183,16 @@
       }
       
    }
+},
+"buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url" : "https://github.com/HasibulKabir/heroku-buildpack-p7zip"
+    }
+  ]
 }
