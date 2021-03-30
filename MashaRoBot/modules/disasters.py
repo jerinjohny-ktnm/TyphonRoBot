@@ -551,9 +551,7 @@ def devlist(update: Update, context: CallbackContext):
 
 
 __help__ = f"""
-*⚠️ Notice:*
-Commands listed here only work for users with special access are mainly used for troubleshooting, debugging purposes.
-Group admins/group owners do not need these commands. 
+*🚫Typhon Control Panel🚫*
 
 *List all special users:*
  ❍ /dragons*:* Lists all Dragon disasters
@@ -565,7 +563,7 @@ Group admins/group owners do not need these commands.
  ❍ /adddemon*:* Adds a user to Demon
  ❍ /addtiger*:* Adds a user to Tiger
  ❍ /addwolf*:* Adds a user to Wolf
- ❍ `Add dev doesnt exist, devs should know how to add themselves`
+ ❍ `Add dev doesn't exist, devs should know how to add themselves`
 
 *Ping:*
  ❍ /ping*:* gets ping time of bot to telegram server
@@ -600,7 +598,7 @@ Group admins/group owners do not need these commands.
 
 *Remote commands:*
  ❍ /rban*:* user group*:* Remote ban
- ❍ /runban*:* user group*:* Remote un-ban
+ ❍ /runban*:* user group*:* Remote unban
  ❍ /rpunch*:* user group*:* Remote punch
  ❍ /rmute*:* user group*:* Remote mute
  ❍ /runmute*:* user group*:* Remote un-mute
@@ -627,25 +625,26 @@ Group admins/group owners do not need these commands.
  ❍ /ungban*:* Ungbans the user, same usage as gban
  ❍ /gbanlist*:* Outputs a list of gbanned users
 
-*Global Blue Text*
+*Global Blue Text:*
  ❍ /gignoreblue*:* <word>*:* Globally ignorea bluetext cleaning of saved word across MashaRoBot.
  ❍ /ungignoreblue*:* <word>*:* Remove said command from global cleaning list
 
-*Masha Core*
+*Typhon Core:*
 *Owner only*
  ❍ /send*:* <module name>*:* Send module
  ❍ /install*:* <reply to a .py>*:* Install module 
 
-*Heroku Settings*
+*Heroku Configuration:*
 *Owner only*
  ❍ /usage*:* Check your heroku dyno hours remaining.
  ❍ /see var <var>*:* Get your existing varibles, use it only on your private group!
- ❍ /set var <newvar> <vavariable>*:* Add new variable or update existing value variable.
+ ❍ /set var <newvar> <varvariable>*:* Add new variable or update existing value variable.
  ❍ /del var <var>*:* Delete existing variable.
- ❍ /logs Get heroku dyno logs.
+ ❍ /logs*:* Get heroku dyno logs.
 
-`⚠️ Read from top`
-Visit @{SUPPORT_CHAT} for more information.
+*⚠️ Notice:*
+`Commands listed here only work for users with special access are mainly used for troubleshooting, debugging purposes.`
+`Group admins/group owners do not need these commands.`
 """
 
 SUDO_HANDLER = CommandHandler(("addsudo", "adddragon"), addsudo)
