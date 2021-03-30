@@ -189,7 +189,7 @@ async def _(dyno):
     await v.edit("Got the logs wait a sec")
     await dyno.client.send_file(
         dyno.chat_id,
-        "logs.txt",
+        "typhon_logs.txt",
         reply_to=dyno.id,
         caption="Typhon Bot Logs.",
     )
